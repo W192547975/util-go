@@ -43,8 +43,7 @@ func Set(env []string, new string) []string {
 	return env
 }
 
-// Split divides an environment variable into
-// a key and a value along the first "=" in it.
+// Split divides an environment variable into a key and a value along the first "=" in it.
 //
 // If the parameter does not contain "=",
 // all return values of this function are empty strings.
